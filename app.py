@@ -489,8 +489,8 @@ if user_question:
                 # Initialize LLM
                 llm = ChatGroq(
                     groq_api_key=st.session_state.api_key,
-                    model_name="mixtral-8x7b-32768",
-                    temperature=0.3
+                    model_name="llama-3.1-8b-instant",
+                    temperature=0.2
                 )
                 
                 # Create prompt template
